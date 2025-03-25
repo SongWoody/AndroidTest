@@ -1,4 +1,4 @@
-package com.example.mycomposeapplication.ui.screen.chatlist
+package com.example.mycomposeapplication.ui.screen.characterlist
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -9,7 +9,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 
-class ChatListViewModel: ViewModel() {
+class CharacterListViewModel: ViewModel() {
     private val _characterList = MutableStateFlow<List<DCCharacter>>(emptyList())
     val characterList: StateFlow<List<DCCharacter>> = _characterList.asStateFlow()
 

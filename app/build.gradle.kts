@@ -7,12 +7,12 @@ plugins {
 
 android {
     namespace = "com.example.mycomposeapplication"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.mycomposeapplication"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -84,5 +84,9 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9")
 //    implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
 //    implementation("com.squareup.okhttp3:okhttp-sse:4.10.0")
+
+    // coil
+    implementation("io.coil-kt.coil3:coil-compose:3.1.0")
+    implementation("io.coil-kt.coil3:coil-network-okhttp:3.1.0")
 
 }

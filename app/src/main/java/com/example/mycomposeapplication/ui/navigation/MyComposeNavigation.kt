@@ -11,7 +11,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.dialog
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.createGraph
-import com.example.mycomposeapplication.ui.screen.chatlist.ChatListScreen
+import com.example.mycomposeapplication.ui.screen.characterlist.ChatListScreen
 import com.example.mycomposeapplication.ui.screen.login.LoginScreen
 import kotlinx.serialization.Serializable
 
